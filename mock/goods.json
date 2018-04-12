@@ -3,13 +3,18 @@
   "msg": "",
   "result": [{
     "productId": "10001",
-    "procuctName": "小米6",
+    "productName": "123afds",
     "productPrice": 2499,
     "productImg": "1.jpg"
   }, {
     "productId": "10001",
-    "procuctName": "小米6",
+    "productName": "bbb",
     "productPrice": 199,
-    "productImg": "1.jpg"
+    "productImg": "2.jpg"
+  }, {
+    "productId": "10001",
+    "productName": "ccc",
+    "productPrice": 199,
+    "productImg": "3.jpg"
   }]
 }
