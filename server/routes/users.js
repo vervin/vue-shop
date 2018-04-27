@@ -5,8 +5,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+// 子路由
+router.get('/test', function(req, res, next) {
+  res.send('test');
 });
 
 

@@ -15,13 +15,9 @@ const portfinder = require('portfinder')
 const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
 
-var goodsData = require('./../mock/goods.json')
-var apiRoutes = express.Router()
-// router.get("/goods", function (req, res, next) {
-//     res.json(good sData)
-// })
-
-app.use('/api', apiRoutes)
+// var goodsData = require('./../mock/goods.json')
+// var apiRoutes = express.Router()
+// app.use('/api', apiRoutes)
 
 const devWebpackConfig = merge(baseWebpackConfig, {
   module: {
